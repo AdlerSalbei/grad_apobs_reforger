@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{518E83BCE17DCB9A}Assets/Items/Equipment/Backpacks/Backpack_APOBS/Data/holders.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

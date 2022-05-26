@@ -1,0 +1,69 @@
+MetaFileClass {
+ Name "{A86425CFEA1774A4}Assets/Items/Equipment/Backpacks/Backpack_APOBS/backpack.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{596EEDE98CF9A0B3}" {
+     SourceMaterial "base"
+     AssignedMaterial "{2E781E9C70A3D0CE}Assets/Items/Backpacks/Apobs/data/base.emat"
+    }
+    MaterialAssignClass "{596EEDE98CF9A08B}" {
+     SourceMaterial "buckles"
+     AssignedMaterial "{33A116A755CCA35F}Assets/Items/Backpacks/Apobs/data/buckles.emat"
+    }
+    MaterialAssignClass "{596EEDE98CF9A096}" {
+     SourceMaterial "cover"
+     AssignedMaterial "{55A082513BE0E8A4}Assets/Items/Backpacks/Apobs/data/cover.emat"
+    }
+    MaterialAssignClass "{596EEDE98CF9A093}" {
+     SourceMaterial "straps"
+     AssignedMaterial "{FA91C925798AD2BD}Assets/Items/Backpacks/Apobs/data/straps.emat"
+    }
+    MaterialAssignClass "{5970DA68CF93EC5E}" {
+     SourceMaterial "holders"
+     AssignedMaterial "{518E83BCE17DCB9A}Assets/Items/Equipment/Backpacks/Backpack_APOBS/Data/holders.emat"
+    }
+    MaterialAssignClass "{5970DA68CF93EC36}" {
+     SourceMaterial "frame"
+     AssignedMaterial "{E5E6339AF8A2D3D8}Assets/Items/Equipment/Backpacks/Backpack_APOBS/Data/frame.emat"
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_FireGeometry {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat" "" ""
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Geometry {
+     LayerPreset "CharNoCollide"
+     SurfaceProperties {
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{596EEDE98CC19475}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{596EEDE98CC1B8EB}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{596EEDE98CC1B85B}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{596EEDE98CC1BBC1}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{596EEDE98CC1BB92}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FA91C925798AD2BE}Assets/Items/Backpacks/Apobs/Data/straps.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

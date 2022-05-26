@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{33A116A755CCA360}Assets/Items/Backpacks/Apobs/Data/buckles.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

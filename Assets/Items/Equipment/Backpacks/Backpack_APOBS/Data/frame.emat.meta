@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E5E6339AF8A2D3D8}Assets/Items/Equipment/Backpacks/Backpack_APOBS/Data/frame.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

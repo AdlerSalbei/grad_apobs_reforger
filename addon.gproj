@@ -1,0 +1,8 @@
+GameProject {
+    ID "grad_apobs"
+    GUID "596EEA8CD884E90F"
+    TITLE "Grad APOBS"
+    Dependencies {
+        "58D0FB3206B6F859"
+    }
+}
