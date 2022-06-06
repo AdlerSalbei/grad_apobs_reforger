@@ -3,47 +3,29 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    MaterialAssigns {
-    MaterialAssignClass "{596EEDE98CF9A0B3}" {
+    MaterialAssignClass "{5988D4FAEEC4CFAE}" {
      SourceMaterial "base"
-     AssignedMaterial "{2E781E9C70A3D0CE}Assets/Items/Backpacks/Apobs/data/base.emat"
+     AssignedMaterial "{2E781E9C70A3D0CF}Assets/Items/Equipment/Backpacks/Backpack_APOBS/Data/base.emat"
     }
-    MaterialAssignClass "{596EEDE98CF9A08B}" {
+    MaterialAssignClass "{5988D4FAEEC4CF82}" {
      SourceMaterial "buckles"
-     AssignedMaterial "{33A116A755CCA35F}Assets/Items/Backpacks/Apobs/data/buckles.emat"
+     AssignedMaterial "{33A116A755CCA360}Assets/Items/Equipment/Backpacks/Backpack_APOBS/Data/buckles.emat"
     }
-    MaterialAssignClass "{596EEDE98CF9A096}" {
+    MaterialAssignClass "{5988D4FAEEC4CF89}" {
      SourceMaterial "cover"
-     AssignedMaterial "{55A082513BE0E8A4}Assets/Items/Backpacks/Apobs/data/cover.emat"
+     AssignedMaterial "{55A082513BE0E8A5}Assets/Items/Equipment/Backpacks/Backpack_APOBS/Data/cover.emat"
     }
-    MaterialAssignClass "{596EEDE98CF9A093}" {
+    MaterialAssignClass "{5988D4FAEEC4CF97}" {
      SourceMaterial "straps"
-     AssignedMaterial "{FA91C925798AD2BD}Assets/Items/Backpacks/Apobs/data/straps.emat"
+     AssignedMaterial "{FA91C925798AD2BE}Assets/Items/Equipment/Backpacks/Backpack_APOBS/Data/straps.emat"
     }
-    MaterialAssignClass "{5970DA68CF93EC5E}" {
+    MaterialAssignClass "{5988D4FAEEC4CF93}" {
      SourceMaterial "holders"
      AssignedMaterial "{518E83BCE17DCB9A}Assets/Items/Equipment/Backpacks/Backpack_APOBS/Data/holders.emat"
     }
-    MaterialAssignClass "{5970DA68CF93EC36}" {
+    MaterialAssignClass "{5988D4FAEEC4CF9A}" {
      SourceMaterial "frame"
      AssignedMaterial "{E5E6339AF8A2D3D8}Assets/Items/Equipment/Backpacks/Backpack_APOBS/Data/frame.emat"
-    }
-   }
-   GeometryParams {
-    GeometryParam UTM_FireGeometry {
-     LayerPreset "ItemFireView"
-     SurfaceProperties {
-      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat" "" ""
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Geometry {
-     LayerPreset "CharNoCollide"
-     SurfaceProperties {
-      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
-     }
-     Mass 0
-     Margin 0
     }
    }
    Common TXOCommonClass "{596EEDE98CC19475}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
